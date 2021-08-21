@@ -1,0 +1,23 @@
+.form-task label {
+  display: block;
+}
+
+.submit-btn {
+  background-color: lightgreen;
+  border: none;
+  border: 0.15rem solid black;
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: skyblue;
+}
+
+.input-task-text {
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+  border: 0.15rem solid black;
+  border-right: none;
+}
