@@ -1,4 +1,5 @@
 import React from 'react'
+import uniqid from 'uniqid'
 import TaskItem from './TaskItem'
 import TaskItemEditor from './TaskItemEditor'
 import './../styles/TaskList.css'
@@ -38,7 +39,7 @@ export default class TaskList extends React.Component {
 
     if(items.length === 0 ) {
       items.push((
-        <p>Your tasks will be shown here. Add a new task.</p>
+        <p key={uniqid()}>Your tasks will be shown here. Add a new task.</p>
         ))
     }
 
