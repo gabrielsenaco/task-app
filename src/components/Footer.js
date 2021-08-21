@@ -9,7 +9,7 @@ export default class Footer extends React.Component{
     <footer>
       <a href='https://github.com/gabesenacom/task-app' rel="noreferrer" target='_blank'>
         <IconBrandGithub />
-        See the Task App repository
+        Task App repository
       </a>
       <a href='https://github.com/gabesenacom' rel="noreferrer" target='_blank'>
         <IconBrandGithub />
