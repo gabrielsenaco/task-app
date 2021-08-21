@@ -1,0 +1,20 @@
+footer {
+  background-color: black;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+}
+
+footer a {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  min-width: 46%;
+}
+
+footer a:hover {
+  background-color: white;
+  color: black;
+}
