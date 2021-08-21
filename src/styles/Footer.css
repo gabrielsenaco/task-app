@@ -4,6 +4,7 @@ footer {
   display: flex;
   flex-direction: row;
   margin-top: 5rem;
+  justify-content: center;
 }
 
 footer a {
@@ -11,7 +12,7 @@ footer a {
   display: flex;
   align-items: center;
   padding: 1rem;
-  min-width: 46%;
+  width: 100%;
 }
 
 footer a:hover {
