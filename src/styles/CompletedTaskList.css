@@ -1,0 +1,7 @@
+#completed-tasks-container .title {
+  background: linear-gradient(white 50%, lightgreen 50%);
+}
+
+#completed-tasks-container .task-item {
+  background-color: lightgreen;
+}
