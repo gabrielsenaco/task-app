@@ -2,11 +2,6 @@ import React from 'react'
 import { IconSquare, IconCheckbox } from '@tabler/icons';
 
 // TO-DO CHECK LATER IF DOING THIS IS A GOOD IDEA. (PERFORMANCE)
-/* TODOS:
-- ADD TASKLIST THAT WILL LIST ALL COMPLETED TASKS ok
-- DEPLOY TO GITHUB PAGES
-- ADD FOOTER COMPONENT THAT LINKS TO GITHUB REPOSITORY
-*/
 export default class CompleteTaskIcon extends React.Component{
   constructor(props) {
     super(props)
